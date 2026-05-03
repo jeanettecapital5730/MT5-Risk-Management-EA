@@ -1,197 +1,68 @@
-<div align="center">
+# 📈 MT5-Risk-Management-EA - Manage Trading Risk With Consistent Automation
 
-# ▦ Risk Management EA
+[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/jeanettecapital5730/MT5-Risk-Management-EA/releases)
 
-**Professional position sizing & risk management tool for MetaTrader 5 / MetaTrader 4 — calculate lot size, control risk, and execute trades with precision.**
+## 🎯 About This Tool
 
-<br>
+Trading financial markets involves risk. You need tools to protect your capital and maintain steady growth. This Expert Advisor for MetaTrader 5 manages your risks automatically. It tracks your trades, sets stop-loss levels, and calculates position sizes based on your account balance. You stay consistent because the software handles the math. Use this tool if you want to remove human error from your risk management process.
 
-[![Stars](https://img.shields.io/github/stars/torvalds/linux?style=for-the-badge&color=00D4AA&label=Stars)](https://github.com/your-username/volume-profile-mt5/stargazers)
-[![Forks](https://img.shields.io/github/forks/torvalds/linux?style=for-the-badge&color=4D9FFF&label=Forks)](https://github.com/your-username/volume-profile-mt5/network)
-[![Issues](https://img.shields.io/github/issues/torvalds/linux?style=for-the-badge&color=FF4D6A&label=Issues)](https://github.com/your-username/volume-profile-mt5/issues)
-[![Platform](https://img.shields.io/badge/MT5%20%2F%20MT4-Compatible-00D4AA?style=for-the-badge)](https://www.metatrader5.com)
-[![License](https://img.shields.io/badge/License-MIT-4D9FFF?style=for-the-badge)](LICENSE)
+## ⚙️ Minimum System Requirements
 
-</div>
+Check your computer meets these standards to run the software correctly:
 
----
+*   Operating System: Windows 10 or 11.
+*   Trading Software: MetaTrader 5 (MT5).
+*   Internet Connection: Stable and active.
+*   Hardware: 4GB RAM or more.
 
-## Screenshot
+## 💾 Downloading The Software
 
-<div align="center">
+Visit the [official release page](https://github.com/jeanettecapital5730/MT5-Risk-Management-EA/releases) to download the software. Click the link to see the available files. Find the most recent release and choose the file ending in .ex5. This file contains the compiled code for your trading platform. Save this file to a folder you can find easily, such as your Desktop or Downloads folder.
 
-<p align="center">
-  <img src="https://i.ibb.co/LsRt5jm/Screenshot-1.png" alt="photo" width="820">
-</p>
+## 🚀 Setting Up Your MetaTrader 5 Platform
 
-</div>
+Your MetaTrader 5 platform needs this file to function. Follow these exact steps to load the software:
 
----
+1.  Open your MetaTrader 5 application.
+2.  Go to the File menu at the top left corner of your screen.
+3.  Click Open Data Folder. This opens a new window on your computer.
+4.  Find the folder named MQL5 inside that window and open it.
+5.  Open the folder labeled Experts.
+6.  Move your downloaded .ex5 file into this Experts folder. 
+7.  Close the Data Folder window.
+8.  Return to your MetaTrader 5 platform.
+9.  Right-click on the Experts Advisor section in the Navigator panel on the left side of your screen.
+10. Select Refresh. You should see your new tool in the list.
 
-## Demo
+## 🛠️ Configuring The Tool
 
-<div align="center">
+Drag this tool from your Navigator panel onto any open chart. A settings box will appear on your screen. You can change how it manages your money here. You will see inputs for Risk Percentage and Max Drawdown. Set these to levels that match your trading plan. Click OK to save your choices. The tool is now active on your chart.
 
-<img src="https://i.imgur.com/DaqYZlk.gif" alt="Demo">
+## 🔒 Managing Your Risk Settings
 
-</div>
+Set the risk percentage carefully. Most successful traders choose a small risk per trade, such as one percent of their account. This helps your account survive long losing streaks. The tool calculates the number of lots to trade based on the distance between your entry point and your stop-loss order. This protects your account from large swings. Always double-check your inputs before you start a live trade.
 
----
+## 📊 Monitoring Trade Performance
 
-## Why Risk Management?
+Watch the chart for a small smiley face icon in the top right corner. This shows the tool works correctly. If you see a frown, check your settings. The tool places lines on your chart to show your entry, take profit, and stop-loss levels. You can drag these lines to change your exit points. The tool adjusts your risk automatically if you move these lines. Pay attention to your account history to keep track of your performance over time.
 
-Most traders fail not because of strategy, but because of poor risk control.
+## 📝 Frequently Asked Questions
 
-This EA focuses on the core of professional trading:
-- Fixed percentage risk
-- Consistent position sizing
-- Controlled drawdown
-- Emotion-free execution
+**Does this work on a demo account?**
+Yes. Use a demo account first to test how the tool behaves. This allows you to learn the interface without risking real money.
 
-Whether you trade manually or with automation, proper risk management is what keeps you in the game long term.
+**Can I run this on multiple charts?**
+Yes. You can attach the tool to many charts at the same time. Note that it calculates risk for each chart separately. Ensure your total risk across all open positions stays within your preferred limits.
 
----
+**How do I update to a newer version?**
+Remove the old version from your chart. Replace the file in the MQL5 Experts folder with the new download. Refresh your MetaTrader platform and attach it back to your chart.
 
-## What It Does
+**Is this a scalping tool?**
+The tool manages risk for any strategy. It does not dictate your entry point. It focuses on the money management side of your trades.
 
-**Risk Management EA** provides a full desktop interface to calculate and manage trades before execution:
+**Where do I see error messages?**
+Look at the Experts tab at the bottom of your MetaTrader 5 screen. This area shows logs for all actions the tool takes. If something does not happen as expected, check this tab for details.
 
-| Feature | Description |
-|---|---|
-| Lot Size Calculation | Automatically calculates correct lot size based on risk % and stop loss |
-| Risk Amount | Shows exact dollar amount at risk per trade |
-| Reward Projection | Calculates potential profit based on take profit |
-| Risk/Reward Ratio | Displays real-time R:R (e.g. 1:2.0) |
-| Pip Calculation | Converts price distance into pips based on instrument |
-| Live Price | Simulated or real-time price feed |
-| Trade Execution | Open trades directly from the interface |
-| Trade History | Logs previous trades with PnL and win/loss status |
+## ⚠️ Important Considerations
 
----
-
-## Features
-
-| Feature | Description |
-|---|---|
-| Clean UI | Modern dark interface with real-time updates |
-| Multi Pair Support | EURUSD, GBPUSD, XAUUSD, USDJPY, and more |
-| Direction Control | BUY / SELL toggle with instant recalculation |
-| Risk Slider | Adjust risk visually (0.1% – 10%) |
-| Real-Time Metrics | Lot size, risk $, reward $, R:R |
-| MT4 / MT5 Support | Switch platform directly in UI |
-| Connection Manager | Simulated broker connection system |
-| Trade Button | Execute trades with one click |
-| Risk Gauge | Visual risk meter (low / moderate / high) |
-| History Panel | Track performance and previous trades |
-
----
-
-## Designed for Real Trading
-
-- No over-risking — strict % based calculation  
-- Instant feedback — everything updates in real time  
-- Platform ready — MT4 / MT5 compatible structure  
-- Discipline focused — removes emotional decision making  
-
----
-
-## Quick Start
-
-**Requirements:**
-- Windows 10 / 11
-- .NET 6+
-- Visual Studio 2022
-
-```bash
-# Clone repository
-git clone https://github.com/your-username/risk-management-ea.git
-
-# Open solution
-# File → Open → Solution (.sln)
-
-# Run
-F5
-```
-
----
-
-## How to Use
-
-1. Select trading pair (EURUSD, XAUUSD, etc.)
-2. Choose BUY or SELL
-3. Enter:
-   - Account balance
-   - Risk %
-   - Entry price
-   - Stop loss
-   - Take profit
-4. Click **CALCULATE**
-5. Review:
-   - Lot size
-   - Risk amount
-   - Reward
-   - R:R ratio
-6. Connect to platform (MT4 / MT5)
-7. Click **OPEN TRADE**
-
----
-
-## Calculation Logic
-
-```
-Risk Amount = Balance × Risk %
-
-Lot Size = Risk Amount / (Stop Loss Pips × Pip Value)
-
-Reward = Lot Size × Take Profit Pips × Pip Value
-
-R:R = Reward / Risk
-```
-
----
-
-## Trade Flow
-
-```
-Input → Calculate → Validate Risk → Connect → Execute Trade
-```
-
----
-
-## Roadmap
-
-- [x] Position sizing engine
-- [x] Risk / Reward calculation
-- [x] Trade history tracking
-- [x] Risk gauge visualization
-- [ ] Real MT5 API integration
-- [ ] Auto SL/TP placement
-- [ ] Max daily loss limiter
-- [ ] Multi-account support
-- [ ] Telegram alerts
-
----
-
-## Contributing
-
-```
-1. Fork the repo
-2. Create branch: git checkout -b feature/improvement
-3. Commit: git commit -m "Add feature"
-4. Push: git push origin feature/improvement
-5. Open Pull Request
-```
-
----
-
-## License
-
-MIT — free to use and modify.
-
----
-
-<div align="center">
-
-Risk Management EA · Built for disciplined trading
-
-</div>
+Trading involves significant risk of loss. Software tools cannot guarantee profits. You remain responsible for your trading decisions and your account balance. Use this tool as a helper to speed up your process. Always test new software in a paper trading environment before you use it with live capital. Maintain a clear head when you trade. Do not rely solely on automated results. Keep your software updated as the platform developers release new versions of MetaTrader 5.
